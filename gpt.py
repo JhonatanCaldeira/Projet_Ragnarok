@@ -4,7 +4,7 @@ import os
 
 load_dotenv(dotenv_path='components/.env')
 
-def openai_request(question,enrich):
+def openai_request(question):
     client = OpenAI(api_key=os.environ.get("OPENAI_API_TOKEN"),)
 
     completion = client.chat.completions.create(
@@ -16,3 +16,5 @@ def openai_request(question,enrich):
     )
 
     print(completion.choices[0].message)
+
+print(openai_request('qual a cor do mar'))
