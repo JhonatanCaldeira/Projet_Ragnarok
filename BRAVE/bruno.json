@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "BRAVE",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

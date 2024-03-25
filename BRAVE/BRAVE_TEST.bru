@@ -1,0 +1,21 @@
+meta {
+  name: BRAVE_TEST
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://api.search.brave.com/res/v1/web/search?q=brave+search
+  body: none
+  auth: none
+}
+
+query {
+  q: brave+search
+}
+
+headers {
+  Accept: application/json
+  Accept-Encoding: gzip
+  X-Subscription-Token: BSA1Eh5FmHZBQ9wRZfWU0cfuRVXfflr
+}
