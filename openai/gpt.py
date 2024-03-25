@@ -1,6 +1,5 @@
 from openai import OpenAI
 
-
 def openai_request(question):
     client = OpenAI()
 
@@ -14,4 +13,4 @@ def openai_request(question):
 
     print(completion.choices[0].message)
 
-openai_request('Quais sao as cores da bandeira do brasil?')
+openai_request('como faço para enriquecer o prompt da API chat.completions com os dados de brave para ter uma resposta mais completa')
