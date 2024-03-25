@@ -12,7 +12,6 @@ def openai_request(question,enrich):
     messages=[
         {"role": "system", "content": "You are a genius of the web."},
         {"role": "user", "content": question}
-        {"role": "user", "content": question}
     ]
     )
 
