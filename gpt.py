@@ -17,4 +17,4 @@ def openai_request(question, brave_input):
     ]
     )
 
-    return completion.choices[0].message
+    return completion.choices[0].message.content
