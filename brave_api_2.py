@@ -21,7 +21,3 @@ def brave_request(query):
         brave_input += "\n" + i['description']
 
     return brave_input
-
-    #print(brave_input)
-    print(gpt.openai_request(query,''))
-    print(gpt.openai_request(query,brave_input))
